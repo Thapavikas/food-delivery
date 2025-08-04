@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "food-delivery",
-    "slug": "food-delivery",
+    "name": "fast_food",
+    "slug": "fast_food",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "fooddelivery",
+    "scheme": "fastfood",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -32,6 +32,14 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "jsm_reactnative_food-ordering",
+          "organization": "jsmpro"
         }
       ]
     ],
